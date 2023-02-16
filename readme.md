@@ -1,6 +1,6 @@
 # vendor-update-monitor
 
-An http applicaton that accepts GitHub monitors, inspects them for changes to files matching configured patterns, and sends a slack message if changes are found.
+An http applicaton that accepts GitHub webhook push events, inspects them for changes to files matching configured patterns, and sends a slack message if changes are found.
 
 
 ## Installation
