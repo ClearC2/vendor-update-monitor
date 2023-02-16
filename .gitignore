@@ -1,0 +1,9 @@
+.code
+.idea
+.DS_Store
+scratch
+*.log
+*.json
+vendor-update-monitor.*
+!vendor-update-monitor.example.json
+!vendor-update-monitor.go

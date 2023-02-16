@@ -1,0 +1,10 @@
+{
+    "ref": "refs/heads/dev",
+    "patterns": [
+        ".*(/|^)(composer.json|composer.lock)$",
+        "(?i)^backend/Vendors",
+        ".*(/|^)(package.json|yarn.lock)$"
+    ],
+    "slack": "https://hooks.slack.com/services/xxx/xxx/xxx",
+    "port": 8083
+}
