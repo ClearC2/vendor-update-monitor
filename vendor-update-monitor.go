@@ -62,6 +62,7 @@ func main() {
 			fmt.Println("Could not parse config")
 			return
 		}
+		defer r.Body.Close()
 		body, err := ioutil.ReadAll(r.Body)
 		if err != nil {
 			fmt.Println("Error reading request body:", err)
